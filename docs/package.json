@@ -1,0 +1,21 @@
+{
+  "name": "blogger-ipfs",
+  "version": "0.0.1",
+  "description": "A InterPlanetary File System based blog post platform",
+  "main": "index.js",
+  "authors": {
+    "name": "Jose Rodrigues",
+    "email": "josemiguel443@gmail.com"
+  },
+  "repository": "https://github.com/JoseRodrigues443/blogger-ipfs/blogger-ipfs",
+  "scripts": {
+    "dev": "npx vuepress dev src",
+    "build": "npx vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+  }
+}

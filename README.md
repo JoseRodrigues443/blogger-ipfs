@@ -1,2 +1,3 @@
 # blogger-ipfs
-A InterPlanetary File System blog post platform
+
+A InterPlanetary File System based blog post platform

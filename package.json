@@ -1,0 +1,22 @@
+{
+  "name": "blogger-ipfs",
+  "version": "1.0.0",
+  "description": "A InterPlanetary File System based blog post platform",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "blog:build": "cd docs && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseRodrigues443/blogger-ipfs.git"
+  },
+  "author": "JoseRodrigues443",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseRodrigues443/blogger-ipfs/issues"
+  },
+  "homepage": "https://github.com/JoseRodrigues443/blogger-ipfs#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ipfs-uploader",
+  "version": "1.0.0",
+  "description": "Client to Access and use IPFS cluster",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "all-relative": "^2.0.0",
+    "ipfs-http-client": "^55.0.0"
+  }
+}
