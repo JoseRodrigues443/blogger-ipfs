@@ -5,6 +5,8 @@ A InterPlanetary File System based blog post platform
 
 ## How it works
 
+![Diagram how it works](how_it_works.jpg)
+
 
 ```bash
 
