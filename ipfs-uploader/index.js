@@ -23,8 +23,8 @@ upload.run(options.dir, client, 'dist/index.html').then(x => {
     console.log("WebSite upload was a success!!!")
 
     console.log("The index.html CID is:", x.cid)
-    console.log("To use add the address https://ipfs.io/ipfs to it:")
+    console.log("To use add the address https://ipfs.io/ipfs/ to it:")
 
-    console.log("Like this:", 'https://ipfs.io/ipfs' + x.cid)
+    console.log("Like this:", 'https://ipfs.io/ipfs/' + x.cid)
 
 })

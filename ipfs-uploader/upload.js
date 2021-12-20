@@ -7,7 +7,7 @@ const run = async (dir, ipfs, pathToReturn) => {
     rootFolder = "/" + path.relative(path.resolve(dir, ".."), dir)
     toReturn = null
     for await (const file of ipfs.addAll(files, { pin: true })) {
-        console.log(file)
+        console.debug(file)
         if (file.path === pathToReturn) {
             toReturn = file
         }
