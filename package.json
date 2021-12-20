@@ -7,7 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "blog:build": "cd docs && npm run build"
+    "blog:build": "cd docs && npm run build",
+    "blog:relative": "cd docs/.vuepress/dist/ && npx all-relative",
+    "blog:upload": "cd ipfs-uploader"
   },
   "repository": {
     "type": "git",
