@@ -14,6 +14,8 @@ make deploy
 
 ### The result being
 
+```bash
+
 {
   path: 'dist/guide',
   cid: CID(QmNy7No1e18K3kQrYEBiqbg5EiK4J4LvvwF5qxqjNGrCAr),
@@ -29,3 +31,5 @@ The index.html CID is: CID(QmU7ppwvWsm53dqYayTdPv52LKvjxu5xJmPXkif7jgCqnU)
 To use add the address https://ipfs.io/ipfs/ to it:
 Like this: https://ipfs.io/ipfs/QmU7ppwvWsm53dqYayTdPv52LKvjxu5xJmPXkif7jgCqnU
 make[1]: Leaving directory '/home/jmr/Projects/blogger-ipfs'
+
+```
